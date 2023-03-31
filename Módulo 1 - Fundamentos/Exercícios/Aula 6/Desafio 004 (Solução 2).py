@@ -5,15 +5,15 @@ ENUNCIADO: Faça um programa que leia algo que foi enviado no terminal e mostre 
 primitivo e todas as informações possíveis sobre ele.
 """
 value = input('Digite algo: ')
-print(f'\n{type(value)}\n')
-print(f'O valor contém apenas números? {value.isnumeric}')
-print(f'O valor contém apenas letras? {value.isalpha}')
-print(f'O valor contém apenas letras e/ou números? {value.isalnum}')
-print(f'O valor contém apenas caracteres ASCII? {value.isascii}')
-print(f'O valor contém apenas dígitos? {value.isdigit}')
-print(f'O valor é um identificador Python válido? {value.isidentifier}')
-print(f'O valor contém apenas caracteres minúsculos? {value.islower}')
-print(f'O valor contém apenas caracteres maiúsculos? {value.isupper}')
-print(f'O valor contém apenas caracteres válidos para serem exibidos? {value.isprintable}')
-print(f'O valor é um caractere valido? {value.isspace}')
-print(f'O valor está captalizado? {value.istitle}')
+print(f'\n{type(value)}\n'
+      f'O valor contém apenas números? {value.isnumeric}'
+      f'O valor contém apenas letras? {value.isalpha}'
+      f'O valor contém apenas letras e/ou números? {value.isalnum}'
+      f'O valor contém apenas caracteres ASCII? {value.isascii}'
+      f'O valor contém apenas dígitos? {value.isdigit}'
+      f'O valor é um identificador Python válido? {value.isidentifier}'
+      f'O valor contém apenas caracteres minúsculos? {value.islower}'
+      f'O valor contém apenas caracteres maiúsculos? {value.isupper}'
+      f'O valor contém apenas caracteres válidos para serem exibidos? {value.isprintable}'
+      f'O valor é um caractere valido? {value.isspace}'
+      f'O valor está captalizado? {value.istitle}')
